@@ -1,0 +1,24 @@
+.tftable { font-size: 15px; color: #333333; width: 100%; border-width: 2px; border-color: #87ceeb; border-collapse: collapse; }
+.tftable th { font-size: 15px; background-color: #87ceeb; border-width: 2px; padding: 8px; border-style: solid; border-color: #87ceeb; text-align: left; }
+.tftable tr { background-color: #ffffff; }
+.tftable td { font-size: 15px; border-width: 2px; padding: 8px; border-style: solid; border-color: #87ceeb; }
+.tftable tr:hover { background-color: #e0ffff; }
+
+/* Новый стиль для центрирования кнопки */
+.add-order-button-container { text-align: center; margin-bottom: 20px; }
+.add-order-button { font-size: 16px; padding: 10px; }
+
+/* Новый стиль для контейнера списка заказов с прокруткой */
+#orderListContainer {
+    max-height: 702px;
+    overflow-y: auto;
+}
+
+/* Новый стиль для расстояний между названиями столбцов */
+h3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}

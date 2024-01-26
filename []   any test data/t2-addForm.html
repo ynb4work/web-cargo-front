@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <form id="newOrderForm">
+        <label for="dateField">Дата:</label>
+        <input type="text" id="dateField" name="dateField" required><br>
+
+        <label for="quantity">Кількість:</label>
+        <input type="text" id="quantity" name="quantity" required><br>
+
+        <label for="units">Одиниці:</label>
+        <input type="text" id="units" name="units" required><br>
+
+        <label for="product">Товар:</label>
+        <input type="text" id="product" name="product" required><br>
+
+        <label for="legalEntity">Юр_особа:</label>
+        <input type="text" id="legalEntity" name="legalEntity" required><br>
+
+        <label for="counterparty">Замовник:</label>
+        <input type="text" id="counterparty" name="counterparty" required><br>
+
+        <label for="unloadingAddresses">Пункт_вiдвантаження:</label>
+        <input type="text" id="unloadingAddresses" name="unloadingAddresses" required><br>
+
+        <label for="mapsLocation">Локацiя:</label>
+        <input type="text" id="mapsLocation" name="mapsLocation" required><br>
+
+        <label for="phoneNumberConsignee">Контакти:</label>
+        <input type="text" id="phoneNumberConsignee" name="phoneNumberConsignee" required><br>
+
+        <label for="fullName">ФИО:</label>
+        <input type="text" id="fullName" name="fullName" required><br>
+
+        <label for="cost">Цiна:</label>
+        <input type="text" id="cost" name="cost" required><br>
+
+        <label for="descriptions">Додаткова_iнформацiя:</label>
+        <input type="text" id="descriptions" name="descriptions" required><br>
+
+        <br><br>
+        <button type="button" value="Сохранить" onclick="saveOrder(this.form)">SAVE</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

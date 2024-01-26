@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="add-order-button-container">
+    <a class="add-order-button" href="./addForm.html">Добавить заявку</a>
+    <a class="registration-button" href="./registrationForm.html">Регистрация</a>
+</div>
+
+<h1>ЗАЯВКИ</h1>
+<h3>
+    <span style="width: 3%;">№</span>
+    <!-- Добавьте остальные заголовки таблицы -->
+</h3>
+
+<!-- Обернуть #orderList в новый контейнер с прокруткой -->
+<div id="orderListContainer">
+    <div id="orderList"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/handlebars/dist/handlebars.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
